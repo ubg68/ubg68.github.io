@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Your videos</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Inter.css">
+    <link rel="stylesheet" href="assets/css/Poppins.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="sidebar">
+            <div class="sidebar__top"><a class="sidebar__logo" href="index.html"><img class="sidebar__pic sidebar__pic_black" src="assets/img/logo.svg" alt=""><img class="sidebar__pic sidebar__pic_white" src="assets/img/logo-white.svg" alt=""></a><button class="sidebar__burger"></button><button class="sidebar__close"><svg class="icon icon-close"><use xlink:href="assets/img/sprite.svg#icon-close"></use></svg></button></div>
+            <div class="sidebar__wrapper">
+                <div class="sidebar__inner">
+                    <div class="sidebar__group">
+                        <div class="sidebar__caption caption-sm"><span>New </span><span>Feeds</span></div>
+                        <div class="sidebar__menu"><a id="link-home" class="sidebar__item" href="index.html"><div class="sidebar__icon"><svg class="icon icon-game-play"><use xlink:href="assets/img/sprite.svg#icon-game-play"></use></svg></div><div class="sidebar__text">News Feed</div></a><a id="link-trending" class="sidebar__item" href="trending.html"><div class="sidebar__icon"><svg class="icon icon-trending"><use xlink:href="assets/img/sprite.svg#icon-trending"></use></svg></div><div class="sidebar__text">Trending</div></a><a id="link-following" class="sidebar__item" href="following.html"><div class="sidebar__icon"><svg class="icon icon-profile"><use xlink:href="assets/img/sprite.svg#icon-profile"></use></svg></div><div class="sidebar__text">Following</div></a><a id="link-videos" class="sidebar__item" href="videos.html"><div class="sidebar__icon"><svg class="icon icon-camera"><use xlink:href="assets/img/sprite.svg#icon-camera"></use></svg></div><div class="sidebar__text">Your Videos</div><div class="sidebar__add"><svg class="icon icon-add"><use xlink:href="assets/img/sprite.svg#icon-add"></use></svg></div></a><a id="link-playlist" class="sidebar__item" href="playlist.html"><div class="sidebar__icon"><svg class="icon icon-document"><use xlink:href="assets/img/sprite.svg#icon-document"></use></svg></div><div class="sidebar__text">Playlist</div></a></div>
+                    </div>
+                    <div class="sidebar__group">
+                        <div class="sidebar__caption caption-sm"><span>Following</span></div>
+                        <div class="sidebar__list"><a id="link-profile" class="sidebar__item" href="profile.html"><div class="sidebar__ava"><img class="sidebar__pic" src="assets/img/ava-1.png" alt=""></div><div class="sidebar__text">Dylan Hodges</div></a><a class="sidebar__item online" href="profile.html"><div class="sidebar__ava"><img class="sidebar__pic" src="assets/img/ava-2.png" alt=""></div><div class="sidebar__text">Vincent Parks</div></a><a class="sidebar__item" href="profile.html"><div class="sidebar__ava"><img class="sidebar__pic" src="assets/img/ava-3.png" alt=""></div><div class="sidebar__text">Richard Bowers</div></a><a class="sidebar__item" href="profile.html"><div class="sidebar__ava"><img class="sidebar__pic" src="assets/img/ava-4.png" alt=""></div><div class="sidebar__text">Isaac Lambert</div></a><a class="sidebar__item online" href="profile.html"><div class="sidebar__ava"><img class="sidebar__pic" src="assets/img/ava-2.png" alt=""></div><div class="sidebar__text">Lillie Nash</div></a><a class="sidebar__item" href="profile.html"><div class="sidebar__ava"><img class="sidebar__pic" src="assets/img/ava-5.png" alt=""></div><div class="sidebar__text">Edith Cain</div></a><a class="sidebar__item online" href="profile.html"><div class="sidebar__ava"><img class="sidebar__pic" src="assets/img/ava-1.png" alt=""></div><div class="sidebar__text">Jerry Sherman</div></a></div><a class="sidebar__more" href="#"><div class="sidebar__arrow"><svg class="icon icon-arrow-down"><use xlink:href="assets/img/sprite.svg#icon-arrow-down"></use></svg></div><div class="sidebar__text">Load more</div></a>
+                    </div>
+                    <div class="sidebar__group">
+                        <div class="sidebar__caption caption-sm"><span>Unity </span><span>Gaming</span></div>
+                        <div class="sidebar__menu"><a id="link-chat" class="sidebar__item" href="chat.html"><div class="sidebar__icon"><svg class="icon icon-chat"><use xlink:href="assets/img/sprite.svg#icon-chat"></use></svg></div><div class="sidebar__text">Chat</div><div class="sidebar__counter">20</div></a><a class="sidebar__item js-popup-open" href="#popup-settings" data-effect="mfp-zoom-in"><div class="sidebar__icon"><svg class="icon icon-settings"><use xlink:href="assets/img/sprite.svg#icon-settings"></use></svg></div><div class="sidebar__text">Settings</div></a><a id="link-analytics" class="sidebar__item" href="analytics.html"><div class="sidebar__icon"><svg class="icon icon-chart"><use xlink:href="assets/img/sprite.svg#icon-chart"></use></svg></div><div class="sidebar__text">Analytics</div></a></div>
+                    </div>
+                </div>
+                <div class="sidebar__banner">
+                    <div class="sidebar__bg" style="background-image: url('assets/img/sidebar-banner.png');"></div><button class="sidebar__remove"><svg class="icon icon-remove"><use xlink:href="assets/img/sprite.svg#icon-remove"></use></svg></button>
+                    <div class="sidebar__details">
+                        <div class="sidebar__title h5"><span>Join the  Unity&nbsp;Gaming</span></div>
+                        <div class="sidebar__info caption-sm"><span>Discover the best live streams anywhere.</span></div><button class="btn sidebar__btn btn_purple btn_wide">Join Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar__bottom"><label class="form-label switch switch_theme js-switch-theme"><input type="checkbox" class="switch__input"><span class="switch__in"><span class="switch__box"></span><span class="switch__icon"><svg class="icon icon-moon"><use xlink:href="assets/img/sprite.svg#icon-moon"></use></svg><svg class="icon icon-sun"><use xlink:href="assets/img/sprite.svg#icon-sun"></use></svg></span></span></label><a class="sidebar__download" href="#"><svg class="icon icon-download"><use xlink:href="assets/img/sprite.svg#icon-download"></use></svg></a></div>
+        </div>
+        <div class="page__wrapper">
+            <div class="header"><button class="header__burger"></button>
+                <div class="header__item header__item_browse js-header-item">
+                    <div class="header__head js-header-head"><svg class="icon icon-location">
+                <use xlink:href="assets/img/sprite.svg#icon-location"></use>
+              </svg><span>Browse</span><svg class="icon icon-arrow-down">
+                <use xlink:href="assets/img/sprite.svg#icon-arrow-down"></use>
+              </svg></div>
+                    <div class="header__body"><a class="header__line" href="browse.html"><div class="header__icon"><svg class="icon icon-star"><use xlink:href="assets/img/sprite.svg#icon-star"></use></svg></div><div class="header__text">Popular Categories</div></a><a class="header__line" href="browse.html"><div class="header__icon"><svg class="icon icon-star"><use xlink:href="assets/img/sprite.svg#icon-star"></use></svg></div><div class="header__text">Hot Streamers</div></a><a class="header__line" href="browse.html"><div class="header__icon"><svg class="icon icon-star"><use xlink:href="assets/img/sprite.svg#icon-star"></use></svg></div><div class="header__text">Trending Videos</div></a><a class="header__line" href="sign-in.html"><div class="header__icon"><svg class="icon icon-star"><use xlink:href="assets/img/sprite.svg#icon-star"></use></svg></div><div class="header__text">Sign In</div></a><a class="header__line" href="sign-up.html"><div class="header__icon"><svg class="icon icon-star"><use xlink:href="assets/img/sprite.svg#icon-star"></use></svg></div><div class="header__text">Sign Up</div></a><a class="header__line js-popup-open" href="#popup-stories"><div class="header__icon"><svg class="icon icon-star"><use xlink:href="assets/img/sprite.svg#icon-star"></use></svg></div><div class="header__text">Stories</div></a></div>
+                </div>
+                <form class="header__search"><input type="text" class="header__input" placeholder="Search Everything"><button class="header__btn-search"><svg class="icon icon-search"><use xlink:href="assets/img/sprite.svg#icon-search"></use></svg></button></form>
+                <div class="header__control">
+                    <div class="header__item header__item_add js-header-item"><button class="header__head js-header-head"><svg class="icon icon-plus-sm"><use xlink:href="assets/img/sprite.svg#icon-plus-sm"></use></svg></button>
+                        <div class="header__body js-header-body"><a class="header__line" href="upload-videos.html"><div class="header__icon"><svg class="icon icon-camera"><use xlink:href="assets/img/sprite.svg#icon-camera"></use></svg></div><div class="header__text">New Video</div><div class="header__icon"><svg class="icon icon-add"><use xlink:href="assets/img/sprite.svg#icon-add"></use></svg></div></a><a class="header__line" href="#"><div class="header__icon"><svg class="icon icon-star"><use xlink:href="assets/img/sprite.svg#icon-star"></use></svg></div><div class="header__text">Go live</div><div class="header__icon"><svg class="icon icon-live"><use xlink:href="assets/img/sprite.svg#icon-live"></use></svg></div></a></div>
+                    </div><a class="header__item header__item_search" href="#"><svg class="icon icon-search"><use xlink:href="assets/img/sprite.svg#icon-search"></use></svg></a>
+                    <div class="header__item header__item_notifications js-header-item"><button class="header__head js-header-head"><svg class="icon icon-bell"><use xlink:href="assets/img/sprite.svg#icon-bell"></use></svg><div class="header__counter">2</div></button>
+                        <div class="header__body js-header-body">
+                            <div class="notifications">
+                                <div class="notifications__info h6"><span>Recent Notification</span></div>
+                                <div class="notifications__list"><a class="notifications__item" href="#"><div class="notifications__ava"><img class="notifications__pic" src="assets/img/ava-1.png" alt=""><div class="notifications__status bg-blue"><img class="notifications__pic" src="assets/img/chat.svg" alt=""></div></div><div class="notifications__details"><div class="notifications__line"><div class="notifications__user">Sarah Saunders</div><div class="notifications__time">8h</div></div><div class="notifications__text">Commented on <span class="notifications__project">The Results Are Beautif</span></div></div></a><a class="notifications__item" href="#"><div class="notifications__ava"><img class="notifications__pic" src="assets/img/ava-2.png" alt=""><div class="notifications__status bg-blue"><img class="notifications__pic" src="assets/img/chat.svg" alt=""></div></div><div class="notifications__details"><div class="notifications__line"><div class="notifications__user">Glenn Greer</div><div class="notifications__time">12h</div></div><div class="notifications__text">Commented on <span class="notifications__project">Your Latest Video</span></div></div></a><a class="notifications__item" href="#"><div class="notifications__ava"><img class="notifications__pic" src="assets/img/ava-3.png" alt=""><div class="notifications__status bg-blue"><img class="notifications__pic" src="assets/img/chat.svg" alt=""></div></div><div class="notifications__details"><div class="notifications__line"><div class="notifications__user">Sarah Saunders</div><div class="notifications__time">13h</div></div><div class="notifications__text">Commented on <span class="notifications__project">Your Latest Video</span></div></div></a><a class="notifications__item" href="#"><div class="notifications__ava"><img class="notifications__pic" src="assets/img/ava-4.png" alt=""><div class="notifications__status bg-green"><img class="notifications__pic" src="assets/img/chat.svg" alt=""></div></div><div class="notifications__details"><div class="notifications__line"><div class="notifications__user">Sarah Saunders</div><div class="notifications__time">19h</div></div><div class="notifications__text">Commented on <span class="notifications__project">Your Latest Video</span></div></div></a><a class="notifications__item" href="#"><div class="notifications__ava"><img class="notifications__pic" src="assets/img/ava-2.png" alt=""><div class="notifications__status bg-purple"><img class="notifications__pic" src="assets/img/message.svg" alt=""></div></div><div class="notifications__details"><div class="notifications__line"><div class="notifications__user">Sarah Saunders</div><div class="notifications__time">21h</div></div><div class="notifications__text">Sent you a message 📪 </div></div></a><a class="notifications__item" href="#"><div class="notifications__ava"><img class="notifications__pic" src="assets/img/ava-5.png" alt=""><div class="notifications__status bg-orange"><img class="notifications__pic" src="assets/img/heart.svg" alt=""></div></div><div class="notifications__details"><div class="notifications__line"><div class="notifications__user">Glenn Greer</div><div class="notifications__time">24h</div></div><div class="notifications__text">Liked <span class="notifications__project">Your Latest Video</span></div></div></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__item header__item_profile"><a class="header__head" href="#"><img class="header__pic" src="assets/img/avatar.png" alt=""></a>
+                    <div class="header__body"><a class="header__link" href="#"><div class="header__img"><svg class="icon icon-profile"><use xlink:href="assets/img/sprite.svg#icon-profile"></use></svg></div>Profile </a><a class="header__link" href="playlist.html"><div class="header__img"><svg class="icon icon-document"><use xlink:href="assets/img/sprite.svg#icon-document"></use></svg></div>My Playlist </a><a class="header__link" href="profile.html"><div class="header__img"><svg class="icon icon-joystick"><use xlink:href="assets/img/sprite.svg#icon-joystick"></use></svg></div>My Channel </a><a class="header__link js-popup-open" href="#popup-settings" data-effect="mfp-zoom-in"><div class="header__img"><svg class="icon icon-settings"><use xlink:href="assets/img/sprite.svg#icon-settings"></use></svg></div>Settings </a><a class="header__link" href="#"><div class="header__img"><svg class="icon icon-logout"><use xlink:href="assets/img/sprite.svg#icon-logout"></use></svg></div>Log Out </a></div>
+                </div>
+            </div>
+            <div class="page__center">
+                <div class="page__info h5"><span>Hi Dash, Welcome back</span></div>
+                <div class="page__title h2"><span>Your Videos</span></div>
+                <div class="upload upload_empty">
+                    <div class="upload__row">
+                        <div class="upload__col">
+                            <div class="upload__wrap"><input type="file" class="upload__input">
+                                <div class="upload__info h6"><span>Drag files here to upload</span></div><button class="btn upload__btn btn_blue"><svg class="icon icon-upload"><use xlink:href="assets/img/sprite.svg#icon-upload"></use></svg><span class="btn__text">Or choose file</span></button>
+                            </div>
+                        </div>
+                        <div class="upload__col">
+                            <div class="upload__head">
+                                <div class="upload__text mr-auto color-gray"><span>Other ways to upload</span></div><a class="upload__link" href="#"><svg class="icon icon-arrows"><use xlink:href="assets/img/sprite.svg#icon-arrows"></use></svg></a>
+                            </div>
+                            <div class="upload__btns">
+                                <div class="upload__file"><input type="file" class="upload__input"><button class="btn upload__btn btn_blue"><svg class="icon icon-upload"><use xlink:href="assets/img/sprite.svg#icon-upload"></use></svg><span class="btn__text">New Video</span></button></div><button class="btn upload__btn btn_purple-light" type="button"><svg class="icon icon-dropbox"><use xlink:href="assets/img/sprite.svg#icon-dropbox"></use></svg><span class="btn__text">Dropbox</span></button>
+                            </div>
+                            <div class="upload__line">
+                                <div class="upload__progress" style="width: 30%;">
+                                    <div class="upload__tooltip"><span>30%</span></div>
+                                </div>
+                            </div>
+                            <div class="upload__note caption-sm color-gray"><span>Upgrade for up to 7TB with no weekly limits.</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog">
+                    <div class="catalog__tags"><a class="catalog__tag" href="#">All</a><a class="catalog__tag" href="#">Stream Videos</a><a class="catalog__tag" href="#">Videos</a></div>
+                    <div class="catalog__row">
+                        <div class="catalog__container">
+                            <div class="catalog__title h6"><span>You uploaded 16 videos</span></div>
+                            <div class="catalog__sorting">
+                                <div class="catalog__box"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                    <div class="field">
+                                        <div class="field__wrap"><select class="field__select">
+                                                <option value="">Date uploaded</option>
+                                                <option value="">New</option>
+                                                <option value="">Free</option>
+                                            </select></div>
+                                    </div>
+                                </div>
+                                <div class="catalog__box">
+                                    <div class="catalog__actions"><a class="catalog__action" href="#"><svg class="icon icon-box"><use xlink:href="assets/img/sprite.svg#icon-box"></use></svg>Move</a><a class="catalog__action" href="#"><svg class="icon icon-box"><use xlink:href="assets/img/sprite.svg#icon-box"></use></svg>Delete</a><a class="catalog__action" href="#"><svg class="icon icon-box"><use xlink:href="assets/img/sprite.svg#icon-box"></use></svg>Add to Playlist</a></div>
+                                    <div class="catalog__view"><a class="catalog__link" href="#"><svg class="icon icon-view-list"><use xlink:href="assets/img/sprite.svg#icon-view-list"></use></svg></a><a class="catalog__link active" href="#"><svg class="icon icon-view-cell"><use xlink:href="assets/img/sprite.svg#icon-view-cell"></use></svg></a></div>
+                                </div>
+                            </div>
+                            <div class="catalog__list">
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-1.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-2.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-3.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-4.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-5.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-6.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-1.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-2.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-3.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-4.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-5.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                                <div class="game">
+                                    <div class="game__preview" style="background-image: url(assets/img/card-pic-6.png);"><label class="form-label checkbox"><input type="checkbox" class="checkbox__input"><span class="checkbox__in"><span class="checkbox__tick"></span></span></label>
+                                        <div class="game__time"><span>10:42</span></div>
+                                        <div class="game__line">
+                                            <div class="game__progress" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="game__details">
+                                        <div class="game__title"><span>The Results Are Now – Call of Duty</span></div>
+                                        <div class="game__status">
+                                            <div class="status blue"><span>8.1M views</span></div>
+                                            <div class="status green"><span>3 months ago</span></div>
+                                        </div>
+                                        <div class="game__name">
+                                            <div class="game__logo"><img class="game__pic" src="assets/img/call-of-duty.png" alt=""></div>
+                                            <div class="game__text"><span>Call of Duty®</span></div>
+                                        </div>
+                                        <div class="game__actions"><button class="game__action"><svg class="icon icon-eye"><use xlink:href="assets/img/sprite.svg#icon-eye"></use></svg></button><button class="game__action"><svg class="icon icon-link"><use xlink:href="assets/img/sprite.svg#icon-link"></use></svg></button><button class="game__action"><svg class="icon icon-share"><use xlink:href="assets/img/sprite.svg#icon-share"></use></svg></button><button class="game__action"><svg class="icon icon-wand"><use xlink:href="assets/img/sprite.svg#icon-wand"></use></svg></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog__btns"><button class="btn catalog__btn btn_gray">Load More</button></div>
+                        </div>
+                        <div class="catalog__sidebar">
+                            <div class="widget">
+                                <div class="widget__head">
+                                    <div class="widget__title h6"><span>Your Playlist </span></div><a class="widget__action" href="#"><svg class="icon icon-plus-sm"><use xlink:href="assets/img/sprite.svg#icon-plus-sm"></use></svg></a>
+                                </div>
+                                <div class="games games_add"><a class="games__item" href="#"><div class="games__preview"><img class="games__pic" src="assets/img/game-1.png"></div><div class="games__details"><div class="games__title">Call of Duty®</div><div class="games__category">Shooting</div><div class="status orange">2.8K viewers</div></div></a><a class="games__item active" href="#"><div class="games__preview"><img class="games__pic" src="assets/img/game-2.png"></div><div class="games__details"><div class="games__title">The Dota 2</div><div class="games__category">eSport</div><div class="status orange">2.8K viewers</div></div></a><a class="games__item" href="#"><div class="games__preview"><img class="games__pic" src="assets/img/game-3.png"></div><div class="games__details"><div class="games__title">League of Legends®</div><div class="games__category">Online Game</div><div class="status orange">2.8K viewers</div></div></a><a class="games__item" href="#"><div class="games__preview"><img class="games__pic" src="assets/img/game-4.png"></div><div class="games__details"><div class="games__title">Fortnite®</div><div class="games__category">Shooting</div><div class="status orange">2.8K viewers</div></div></a><a class="games__item" href="#"><div class="games__preview"><img class="games__pic" src="assets/img/game-1.png"></div><div class="games__details"><div class="games__title">Call of Duty®</div><div class="games__category">Shooting</div><div class="status orange">2.8K viewers</div></div></a></div><button class="btn widget__btn btn_gray btn_wide">Manage Your Playlist</button>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__head">
+                                    <div class="widget__title h6"><span>Views this month</span></div><a class="widget__action" href="#"><svg class="icon icon-arrow-up-right"><use xlink:href="assets/img/sprite.svg#icon-arrow-up-right"></use></svg></a>
+                                </div>
+                                <div class="details details_sm">
+                                    <div class="details__container">
+                                        <div class="details__flex">
+                                            <div class="details__number h1"><span>483</span></div>
+                                            <div class="details__chart details__chart_activity">
+                                                <div id="chart-active-users"></div>
+                                            </div>
+                                        </div>
+                                        <div class="details__flex"><a class="details__line" href="#"><div class="details__preview"><img class="details__pic" src="assets/img/details-pic.png" alt=""></div><div class="details__info caption-sm">Page views per minute</div></a>
+                                            <div class="details__status">
+                                                <div class="details__icon bg-blue"><svg class="icon icon-arrow-down-fat">
+                              <use xlink:href="assets/img/sprite.svg#icon-arrow-down-fat"></use>
+                            </svg></div>
+                                                <div class="details__percent caption-sm color-blue"><span>6%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="details__box">
+                                            <div class="details__chart details__chart_counter">
+                                                <div id="chart-users-counter"></div>
+                                            </div><button class="details__remove"><svg class="icon icon-remove"><use xlink:href="assets/img/sprite.svg#icon-remove"></use></svg></button>
+                                        </div>
+                                        <div class="details__list">
+                                            <div class="details__item">
+                                                <div class="details__head">
+                                                    <div class="details__preview bg-purple"><img class="details__pic" src="assets/img/folder.svg" alt=""></div>
+                                                    <div class="details__text caption-sm color-gray"><span>Viewers</span></div>
+                                                </div>
+                                                <div class="details__counter h4"><span>98k</span></div>
+                                                <div class="details__indicator">
+                                                    <div class="details__progress bg-purple" style="width: 55%;"></div>
+                                                </div>
+                                            </div>
+                                            <div class="details__item">
+                                                <div class="details__head">
+                                                    <div class="details__preview bg-pink"><img class="details__pic" src="assets/img/activity.svg" alt=""></div>
+                                                    <div class="details__text caption-sm color-gray"><span>Followers</span></div>
+                                                </div>
+                                                <div class="details__counter h4"><span>1m</span></div>
+                                                <div class="details__indicator">
+                                                    <div class="details__progress bg-pink" style="width: 52%;"></div>
+                                                </div>
+                                            </div>
+                                            <div class="details__item">
+                                                <div class="details__head">
+                                                    <div class="details__preview bg-blue"><img class="details__pic" src="assets/img/bag.svg" alt=""></div>
+                                                    <div class="details__text caption-sm color-gray"><span>Ads</span></div>
+                                                </div>
+                                                <div class="details__counter h4"><span>27$</span></div>
+                                                <div class="details__indicator">
+                                                    <div class="details__progress bg-blue" style="width: 55%;"></div>
+                                                </div>
+                                            </div>
+                                            <div class="details__item">
+                                                <div class="details__head">
+                                                    <div class="details__preview bg-orange"><img class="details__pic" src="assets/img/chat.svg" alt=""></div>
+                                                    <div class="details__text caption-sm color-gray"><span>Videos</span></div>
+                                                </div>
+                                                <div class="details__counter h4"><span>16</span></div>
+                                                <div class="details__indicator">
+                                                    <div class="details__progress bg-orange" style="width: 68%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup_settings mfp-hide" id="popup-settings">
+        <form class="popup__form">
+            <div class="popup__title h6"><span>Account Settings</span></div>
+            <div class="popup__tags"><a class="popup__tag active" href="#">Profile</a><a class="popup__tag" href="#">Password</a><a class="popup__tag" href="#">Email</a><a class="popup__tag" href="#">Notification</a><a class="popup__tag" href="#">Settings</a></div>
+            <div class="popup__field field mobile-show">
+                <div class="field__wrap"><select class="field__select">
+                        <option value="">Your Profile</option>
+                        <option value="">Password</option>
+                        <option value="">Channels</option>
+                        <option value="">Apps</option>
+                        <option value="">Data Export</option>
+                    </select></div>
+            </div>
+            <div class="popup__user">
+                <div class="popup__title h6 mobile-show"><span>Your Profile</span></div>
+                <div class="popup__category caption-sm"><span>Your Avatar</span></div>
+                <div class="popup__line">
+                    <div class="popup__ava"><img class="popup__pic" src="assets/img/avatar.png" alt=""></div>
+                    <div class="popup__details">
+                        <div class="popup__btns">
+                            <div class="popup__loading"><input type="file" class="popup__file"><button class="btn popup__btn btn_purple">Upload New</button></div><button class="btn popup__btn btn_gray">Delete Avatar</button>
+                        </div>
+                        <div class="popup__text"><span>Avatar help your teammates recognize you in Unity.</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup__fieldset">
+                <div class="popup__row">
+                    <div class="popup__field field">
+                        <div class="field__label"><span>Your Full Name</span></div>
+                        <div class="field__wrap"><input type="text" class="field__input"></div>
+                    </div>
+                    <div class="popup__field field">
+                        <div class="field__label"><span>Display Name</span></div>
+                        <div class="field__wrap"><input type="text" class="field__input"></div>
+                    </div>
+                </div>
+                <div class="popup__row">
+                    <div class="popup__field field">
+                        <div class="field__label"><span>Role</span></div>
+                        <div class="field__wrap"><input type="text" class="field__input"></div>
+                    </div>
+                    <div class="popup__field field">
+                        <div class="field__label"><span>Location</span></div>
+                        <div class="field__wrap"><input type="text" class="field__input"></div>
+                    </div>
+                </div>
+                <div class="popup__row">
+                    <div class="popup__field field">
+                        <div class="field__label"><span>Role</span></div>
+                        <div class="field__wrap"><input type="text" class="field__input"></div>
+                    </div>
+                    <div class="popup__field field">
+                        <div class="field__label"><span>Team</span></div>
+                        <div class="field__wrap"><input type="text" class="field__input"></div>
+                    </div>
+                </div>
+                <div class="popup__field field">
+                    <div class="field__label"><span>Bio</span></div>
+                    <div class="field__wrap"><textarea class="field__textarea"></textarea></div>
+                </div>
+            </div><button class="btn popup__btn btn_purple" type="submit">Update Profile</button>
+        </form>
+    </div>
+    <div class="popup popup_stories mfp-hide" id="popup-stories">
+        <div class="stories">
+            <div class="stories__container">
+                <div class="stories__slider js-slider-stories">
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                    <div class="stories__slide">
+                        <div class="stories__item" style="background-image: url('assets/img/stories-pic.png');">
+                            <div class="stories__progress">
+                                <div class="stories__line active"></div>
+                                <div class="stories__line"></div>
+                            </div><a class="stories__user" href="#"><div class="stories__ava"><img class="stories__pic" src="assets/img/ava-1.png" alt=""></div><div class="stories__desc"><div class="stories__man confirm">Tran Mau Tri Tam </div><div class="stories__game">Call of Duty</div><div class="status orange">2.8K viewers</div></div></a>
+                            <form class="stories__form"><input type="text" class="stories__input" placeholder="Send a message…"><button class="btn stories__btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile"><use xlink:href="assets/img/sprite.svg#icon-editor-smile"></use></svg></button></form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/lib/jquery.min.js"></script>
+    <script src="assets/js/lib/svg4everybody.min.js"></script>
+    <script src="assets/js/lib/slick.min.js"></script>
+    <script src="assets/js/lib/apexcharts.min.js"></script>
+    <script src="assets/js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/lib/jquery.nice-select.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/charts.js"></script>
+    <script src="assets/js/dark-light-mode.js"></script>
+    <script src="assets/js/menu-active.js"></script>
+</body>
+
+</html>
